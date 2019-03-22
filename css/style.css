@@ -25,7 +25,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 360px;
+  width: 35%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -37,16 +37,34 @@
   display: flex;
 }
 
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 34%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 34%;
+}
+
 .navbar {
   background-color: #4cb1ca;
 }
 
 .menu-lists {
-  color: #fff;
-}
-
-.menu-navbar a {
-  text-decoration: none;
   color: #fff;
 }
 
@@ -59,7 +77,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("../img/arrow.png") no-repeat 94% 50% #4cb1ca;
+  background: url("../img/arrow.png") no-repeat 100% 50% #4cb1ca;
 }
 
 .select-currency {
@@ -71,7 +89,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("../img/arrow.png") no-repeat 50% 50% #4cb1ca;
+  background: url("../img/arrow.png") no-repeat 52% 50% #4cb1ca;
 }
 
 .line {
@@ -87,7 +105,7 @@
 
 .search-field form {
   position: relative;
-  width: 300px;
+  width: 180px;
   margin: 0 auto;
 }
 
@@ -100,7 +118,7 @@
   color: #c6c6c6;
 }
 
-button {
+.search-field form button {
   position: absolute;
   top: 6px;
   left: 155px;
@@ -111,13 +129,43 @@ button {
   cursor: pointer;
 }
 
-.search-field input::-ms-clear {
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
   display: none;
+}
+
+.buttons button {
+  border: none;
+  background-color: #7db122;
+  outline: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 30px;
+}
+
+.buy {
+  background: url("../img/buy-icon.png") no-repeat center center;
+}
+
+.ticket {
+  background: url("../img/ticket-icon.png") no-repeat center center;
+}
+
+.buy:hover {
+  cursor: pointer;
+  background-color: #4f7906;
+}
+
+.ticket:hover {
+  cursor: pointer;
+  background-color: #4f7906;
 }
 
 @font-face {
   font-family: 'Open Sans Light';
-  src: url("../fonts/OpenSans-Light.eot");
+  src: url("cOpenSans-Light.eot");
   src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -131,8 +179,38 @@ button {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/OpenSans-Bold.eot");
+  src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-navbar a {
+  color: #ffffff;
+}
+
 .menu-navbar a, .menu-lists {
   font-family: 'Open Sans Regular', sans-serif;
   font-size: 14px;
+}
+
+.logo h1 {
+  font-family: 'Open Sans Bold', sans-serif;
+  color: #656565;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.sub-menu a, .counter p, span {
+  font-family: 'Open Sans Bold', sans-serif;
+  color: #656565;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

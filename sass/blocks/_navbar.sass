@@ -4,10 +4,6 @@
 .menu-lists 
     color: #fff
 
-.menu-navbar a 
-    text-decoration: none
-    color: #fff
-
 .select-language
     width: 70px
     background-color: #4cb1ca
@@ -15,7 +11,7 @@
     outline: none
     color: #fff
     appearance: none
-    background: url('../img/arrow.png') no-repeat 94% 50% #4cb1ca
+    background: url('../img/arrow.png') no-repeat 100% 50% #4cb1ca
 
 .select-currency
     width: 70px
@@ -24,7 +20,7 @@
     outline: none
     color: #fff
     appearance: none
-    background: url('../img/arrow.png') no-repeat 50% 50% #4cb1ca
+    background: url('../img/arrow.png') no-repeat 52% 50% #4cb1ca
 
 .line 
     border: none
@@ -37,7 +33,7 @@
 
 .search-field form 
   position: relative
-  width: 300px
+  width: 180px
   margin: 0 auto
 
 .search-field input 
@@ -48,7 +44,7 @@
   outline: none
   color: #c6c6c6
   
-button 
+.search-field  form  button 
   position: absolute
   top: 6px
   left: 155px
@@ -58,5 +54,30 @@ button
   background: url('../img/search-icon.png') no-repeat center center
   cursor: pointer
 
-.search-field input::-ms-clear
-    display: none
+input[type='search']::-webkit-search-decoration, 
+input[type='search']::-webkit-search-cancel-button, 
+input[type='search']::-webkit-search-results-button, 
+input[type='search']::-webkit-search-results-decoration 
+	display: none
+
+.buttons  button 
+    border: none
+    background-color: #7db122
+    outline: none
+    width: 38px
+    height: 38px
+    border-radius: 30px
+
+.buy 
+    background: url('../img/buy-icon.png') no-repeat center center
+
+.ticket 
+    background: url('../img/ticket-icon.png') no-repeat center center
+
+.buy:hover 
+    cursor: pointer
+    background-color: #4f7906
+
+.ticket:hover 
+    cursor: pointer
+    background-color: #4f7906
