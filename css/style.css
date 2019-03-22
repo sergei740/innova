@@ -85,6 +85,36 @@
   opacity: 0.8;
 }
 
+.search-field form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-field input {
+  width: 175px;
+  height: 26px;
+  padding-left: 6px;
+  border: 1px solid #7BA7AB;
+  outline: none;
+  color: #c6c6c6;
+}
+
+button {
+  position: absolute;
+  top: 6px;
+  left: 155px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: url("../img/search-icon.png") no-repeat center center;
+  cursor: pointer;
+}
+
+.search-field input::-ms-clear {
+  display: none;
+}
+
 @font-face {
   font-family: 'Open Sans Light';
   src: url("../fonts/OpenSans-Light.eot");
