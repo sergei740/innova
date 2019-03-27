@@ -1,0 +1,17 @@
+@mixin fontFace($FontName, $FontPathName, $FontWeight) {
+	@font-face {
+		font-family: '#{$FontName}';
+		font-weight: #{$FontWeight};
+		font-style: normal;
+
+		src: url('/assets/fonts/#{$FontPathName}.eot');
+		src: url('/assets/fonts/#{$FontPathName}.woff2') format('woff2'),
+			 url('/assets/fonts/#{$FontPathName}.woff') format('woff'),
+			 url('/assets/fonts/#{$FontPathName}.ttf') format('truetype'),
+			 url('/assets/fonts/#{$FontPathName}.eot?#iefix') format('embedded-opentype');
+	}
+}
+
+@include fontFace('Open Sans', 'OpenSans-Light', 300);
+@include fontFace('Open Sans', 'OpenSans-Regular', 400);
+@include fontFace('Open Sans', 'OpenSans-Bold', 700);

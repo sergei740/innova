@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+}
+
+.menu-navbar a {
+    color: $white;
+}
+
+.menu-navbar a,
+.menu-lists {
+    // +regular
+    // font-family: $font-main;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo h1 {
+    // +bold
+    // font-family: $font-main;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: $main-gray;
+}
+
+.sub-menu a,
+.counter p,
+span {
+    // +bold
+    // font-family: $font-main;
+    font-size: 14px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: $main-gray;
+}
