@@ -15,6 +15,7 @@ Config.devServer = {
 	publicPath: "/",
 	hot: true,
 	open: true,
+	watchContentBase: true,
 	// proxy: [{
 	// 	context: ['**', '!/assets/**'],
 	// 	target: 'http://localhost:5000'

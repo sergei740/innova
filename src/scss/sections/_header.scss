@@ -1,0 +1,94 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburger {
+  display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #36bbce;
+  z-index: 2000;
+}
+
+.navbar {
+  padding: 15px 0 5px 0;
+}
+
+.navbar .list-item a {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.list-item a {
+  display: flex;
+  align-items: center;
+}
+
+.list-item a:hover {
+  color: #714b24;
+}
+
+.list-item img {
+  margin-right: 8px;
+}
+
+/// Media
+@media (max-width: 1279px) {
+  header {
+    position: relative;
+  }
+
+  .logo {
+    margin: auto;
+    width: 210px;
+  }
+
+  .navbar-list {
+    display: none;
+    &-hamburger {
+      background: linear-gradient(
+        144.3deg,
+        rgba(255, 255, 255, 1) 19.59%,
+        rgba(54, 187, 206, 1) 101.76%
+      );
+      max-height: calc(100vh - 84.39px);
+      overflow: auto;
+      max-width: none;
+      position: absolute;
+      border-radius: 10px;
+      padding: 50px 0 50px 0;
+      top: 100%;
+      left: 0;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .list-item {
+      margin-bottom: 14px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  }
+
+  .list-item {
+    margin: 0 0 10px 0;
+  }
+
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+}

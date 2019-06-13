@@ -1,0 +1,105 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.2s, opacity 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+  &-content {
+    text-align: center;
+    position: relative;
+    width: 42%;
+    height: 650px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px auto;
+    &-inner {
+    position: relative;
+    }
+    &:before {
+      content: "";
+      border-radius: 20px;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(162.65deg, rgba(255, 255, 255, 0.75) 19.59%, rgba(54, 187, 206, 0.36) 101.76%);
+    }
+    &-text {
+      padding: 110px 0px 43px 0px;
+      font-size: 48px;
+      line-height: normal;
+      color: #173c46;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &-form {
+      margin: auto;
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      &-block-for-checkbox {
+        display: flex;
+        text-align: left;
+      }
+      &-block-for-checkbox label {
+        color: #ffffff;
+        font-size: 14px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      &-block-for-checkbox label:last-child {
+        margin-left: 15px;
+      }
+      &-block-for-checkbox label:last-child a {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+    label.error {
+      display: block;
+      color: red;
+      margin-top: 10px;
+    }
+    .validate-js {
+      margin-bottom: 30px;
+    }
+    &-form input {
+      padding: 15px 35px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      line-height: 27px;
+      color: #828282;
+      
+      width: 100%;
+    }
+  }
+  &-close {
+    position: absolute;
+    background: none;
+    border: none;
+    outline: none;
+    top: 18px;
+    right: 10px;
+    z-index: 1;
+    transition: color 0.5s ease-in-out;
+  }
+  &-close:hover {
+    cursor: pointer;
+  }
+  &.is-active {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 0.5s;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

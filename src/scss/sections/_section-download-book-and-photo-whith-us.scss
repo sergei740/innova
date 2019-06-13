@@ -1,0 +1,70 @@
+.section-download-book-and-photo-whith-us {
+  background: #f7ffff;
+  padding-bottom: 95px;
+  &-header {
+    width: 74%;
+    margin: 0px 0 30px 110px;
+    padding-top: 68px;
+    font-size: 72px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #173c46;
+  }
+}
+
+.block-download-book-content {
+  display: flex;
+  width: 68.875%;
+  margin: 196px auto 0px;
+}
+
+.form-download-book {
+  display: flex;
+}
+
+.form-download-book legend {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+  margin-bottom: 47px;
+  width: 100%;
+}
+
+.form-download-book input[type="text"] {
+  width: 370px;
+  background: #dadada;
+  border-radius: 20px;
+  padding: 20px 0 20px 43px;
+  border: none;
+  outline: none;
+  color: #bdbdbd;
+  font-size: 24px;
+  line-height: 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 40px;
+}
+
+.form-download-book input[type="text"]:nth-child(3) {
+  margin-right: 0;
+  width: 506px;
+}
+
+.form-download-book label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+  margin-left: 13px;
+}
+
+.form-download-book label > span {
+  text-decoration: underline;
+}
+
+.block-for-checkbox {
+  display: flex;
+  margin-top: 20px;
+}
+
+.slider-photo {
+  padding-top: 40px;
+}

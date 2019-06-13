@@ -1,0 +1,44 @@
+.section-map {
+  position: relative;
+}
+
+.map {
+  min-height: 604px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.block-with-contacts {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(162.11deg, #222222 19.59%, rgba(54, 187, 206, 0.48) 101.76%);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+  right: 160px;
+  padding: 58px 50px 84px 72px;
+}
+
+.block-with-contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.block-with-contacts-item{
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.block-with-contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.block-with-contacts-item img {
+  margin-right: 22px;
+} 

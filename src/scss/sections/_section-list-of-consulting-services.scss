@@ -1,0 +1,20 @@
+.section-list-of-consulting-services {
+  background-color: #f7ffff;
+  &-header {
+    width: 74%;
+    margin: 0 0 30px 110px;
+    padding-top: 168px;
+    font-size: 72px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #173c46;
+  }
+}
+
+@media (max-width: 1279px) {
+  .section-list-of-consulting-services-header {
+    font-size: 36px;
+    line-height: normal;
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,149 @@
+.section-our-advantages {
+  background: #f7ffff;
+  &-header {
+    width: 74%;
+    margin: 0 0 30px 110px;
+    padding-top: 82px;
+    font-size: 72px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #173c46;
+  }
+}
+
+.block-our-advantages-main {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-with-cards {
+  width: 68%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.first-line-with-items,
+.second-line-with-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-card {
+  width: 44%;
+  min-height: 405px;
+  position: relative;
+  background: linear-gradient(
+    161.86deg,
+    rgba(255, 255, 255, 0.8) 19.59%,
+    rgba(54, 187, 206, 0.384) 101.76%
+  );
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 44px;
+}
+
+.item-card-content,
+.subitem-card-content {
+  margin: 15px 0 0 15px;
+}
+
+.item-card-text {
+  width: 70%;
+  margin: 105px auto 0;
+  text-align: left;
+  font-size: 36px;
+  line-height: 37px;
+  color: #173c46;
+}
+
+.subitem-card {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.subitem-card-text {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #111111;
+  height: 228px;
+}
+
+.item-card-content.active {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.active .item-card-content {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.subitem-card.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.active .subitem-card {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  .section-our-advantages {
+    background: transparent;
+    &-header {
+      font-size: 36px;
+      line-height: normal;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .block-with-cards {
+    width: 90%;
+  }
+
+  .first-line-with-items,
+  .second-line-with-items {
+    flex-direction: column;
+  }
+
+  .item-card {
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 5px;
+  }
+
+  .item-card-text {
+    width: 80%;
+    font-size: 26px;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .subitem-card-text {
+    margin: auto;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .item-card-content,
+  .subitem-card-content {
+    margin: auto;
+  }
+
+  .subitem-card-content {
+    padding: 5px;
+  }
+}

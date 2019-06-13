@@ -17,35 +17,8 @@ body {
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
-}
-.container {
-	max-width: 1024px;
-	margin: 0 auto;
-}
-.menu-navbar {
-	display: flex;
-	width: 35%;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.menu-lists {
-	display: flex;
-}
-
-.buttons {
-	display: flex;
-	width: 34%;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.sub-menu {
-	display: flex;
-	width: 34%;
-	justify-content: space-between;
 }
 
 // @media (max-width: 1200px) {}
