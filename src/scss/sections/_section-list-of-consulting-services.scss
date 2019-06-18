@@ -11,10 +11,19 @@
   }
 }
 
+///Media
+@media (max-width: 1439px) {
+  .section-list-of-consulting-services-header {
+    font-size: 54px;
+  }
+}
+
 @media (max-width: 1279px) {
   .section-list-of-consulting-services-header {
     font-size: 36px;
+    text-align: center;
     line-height: normal;
     padding-top: 100px;
+    margin: 0 auto 30px;
   }
 }

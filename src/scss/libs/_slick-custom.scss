@@ -1,0 +1,39 @@
+// custom styles for slick goes here
+.slick-prev-btn-position {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	z-index: 1000;
+}
+
+.slick-next-btn-position {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	z-index: 1000;
+}
+
+.slick-dots {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+.slick-dots button {
+	border: none;
+	width: 20px;
+	height: 20px;
+	color: #bdbdbd;
+	outline: none;
+	background: #bdbdbd;
+	border-radius: 50px;
+	margin-right: 10px;
+	transition: all .5s ease-in-out;
+}
+
+.slick-dots button:hover {
+	cursor: pointer;
+	background: #173c46;
+	color: #173c46;
+}

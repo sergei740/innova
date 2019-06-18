@@ -42,3 +42,32 @@
 .block-with-contacts-item img {
   margin-right: 22px;
 } 
+
+@media (max-width: 1279px) {
+  .block-with-contacts {
+    padding: 40px;
+    right: 40px;
+  }
+
+  .block-with-contacts-item{
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-with-contacts {
+    top: 80%;
+    left: 0;
+    margin: auto;
+    width: 50%;
+    right: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .block-with-contacts {
+    width: 80%;
+  }
+}

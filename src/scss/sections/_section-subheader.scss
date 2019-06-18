@@ -39,6 +39,24 @@
 }
 
 /// Media
+@media (max-width: 1439px) {
+  .main-title {
+    font-size: 48px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .main-subtitle {
+    font-size: 64px;
+  }
+
+  .child-subtitle{
+    font-size: 54px;
+  }
+}
+
+
+
 @media (max-width: 1279px) {
   .main-title,
   .main-subtitle,
@@ -59,9 +77,19 @@
 }
 
 @media (max-width: 767px) {
-  .main-title,
+  .main-title {
+    font-size: 30px;
+    width: 100%;
+    padding-top: 100px;
+  }
+
   .main-subtitle {
     font-size: 26px;
-    line-height: normal;
+  }
+}
+
+@media (max-width: 374px) {
+  .btn-get-consult {
+    width: 240px;
   }
 }

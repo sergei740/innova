@@ -98,11 +98,53 @@
   visibility: visible;
 }
 
-@media (max-width: 767px) {
+///Media
+
+@media (max-width: 1599px) {
+  .item-card-text {
+    width: 80%;
+    font-size: 26px;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .subitem-card-text {
+    margin: auto;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1439px) {
+  .section-our-advantages-header {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .section-our-advantages-header {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .item-card-text {
+    font-size: 36px;
+  }
+
+  .subitem-card-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1023px) {
   .section-our-advantages {
     background: transparent;
     &-header {
-      font-size: 36px;
+      font-size: 42px;
       line-height: normal;
       margin: auto;
       text-align: center;
@@ -122,20 +164,6 @@
     width: 100%;
     margin: 0 auto 30px;
     padding: 5px;
-  }
-
-  .item-card-text {
-    width: 80%;
-    font-size: 26px;
-    text-align: center;
-    line-height: normal;
-  }
-
-  .subitem-card-text {
-    margin: auto;
-    padding: 0 20px;
-    font-size: 14px;
-    line-height: normal;
   }
 
   .item-card-content,

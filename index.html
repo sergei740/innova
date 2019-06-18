@@ -6,15 +6,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Иннова</title>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#878787">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Favicons ending -->
 </head>
 
 <body>
 	<header id="myHeader">
-		<div class="navbar-wrapper" style='background: url("../../assets/img/header-bg.png")'>
+		<div class="navbar-wrapper" style='background: url("/assets/img/header-bg.png")'>
 			<div class="container">
 				<div class="navbar">
 					<div class="navbar-content">
-						<div class="logo"><a href="#subheader"><img src="assets/img/logo-innova.png" alt=""></a></div>
+						<div class="logo"><a href="#subheader"><img src="assets/img/logo-innova.png" alt="Иннова"></a></div>
 						<div class="navbar-list scrollto-js" id="menu">
 							<div class="list-item"><a href="#services">услуги</a></div>
 							<div class="list-item"><a href="#advantages">наши преимущества</a></div>
@@ -35,7 +46,10 @@
 			</div>
 		</div>
 	</header>
-	<section class="section-subheader" id="subheader" style='background-image:url("../../assets/img/background.png")'>
+
+	<section class="progress"></section>
+	
+	<section class="section-subheader" id="subheader" style='background-image:url("/assets/img/background.png")'>
 		<div class="container">
 			<div class="main-title">Консультирование в сфере биржевой торговли и управления активами</div>
 			<div class="main-subtitle">Более 7 лет на рынке!</div>
@@ -44,7 +58,7 @@
 			<div class="block-for-metal-btn scrollto-js" id="btnScrollToConsult">
 				<a href="#consult" class="btn-metal">
 					<span class="btn-scroll-down"
-						style='background-image: url("../../assets/img/icon-btn-bg-metal.png")'>
+						style='background-image: url("/assets/img/icon-btn-bg-metal.png")'>
 						<span class="btn-sircle">
 							<span class="btn-arrow"></span>
 						</span>
@@ -53,6 +67,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class='section-consult' id="consult">
 		<div class="container">
 			<div class="block-consult">
@@ -66,13 +81,10 @@
 				полный доступ к нашей базе знаний.
 				Заработайте свой первый миллион с нами!
 			</div>
-			<form action="#" class="btn-get-consult-to-center">
-				<button class="btn-main btn-get-consult" data-popup-open="feedBack">Получить консультацию</button>
-			</form>
-
+			<button class="btn-main btn-get-consult" data-popup-open="feedBack">Получить консультацию</button>
 		</div>
-
 	</section>
+
 	<section class="section-list-of-consulting-services" id="services">
 		<div class="container">
 			<div class="section-list-of-consulting-services-header">Перечень Консультационных услуг</div>
@@ -631,12 +643,13 @@
 			</div>
 		</div>
 	</section>
+
 	<section class='section-our-advantages' id="advantages">
 		<div class="container">
 			<div class="section-our-advantages-header">наши преимущества</div>
 		</div>
 		<div class="block-our-advantages-main"
-			style="background-image:url('../../assets/img/background-our-advantages.png')">
+			style="background-image:url('/assets/img/background-our-advantages.png')">
 			<div class="container">
 				<div class="block-with-cards">
 					<div class="first-line-with-items">
@@ -748,8 +761,8 @@
 				</div>
 			</div>
 		</div>
-		</div>
 	</section>
+
 	<section class='section-download-book-and-photo-whith-us' id="book">
 		<div class="container">
 			<div class="section-download-book-and-photo-whith-us-header">cкачать книгу</div>
@@ -769,7 +782,8 @@
 								<label for="checkbox-download-book"></label>
 								<label for="checkbox-download-book">Согласие на обработку персональных
 									данных</br><span>Политика
-										конфиденциальности</span></label>
+										конфиденциальности</span>
+								</label>
 							</div>
 						</div>
 						<div class="form-download-book-button">
@@ -904,8 +918,9 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="section-contact-with-us" id="contacts"
-		style='background:url("../../assets/img/background-contact-with-us.png") no-repeat; background-size: cover;'>
+		style='background:url("/assets/img/background-contact-with-us.png") no-repeat; background-size: cover;'>
 		<div class="container">
 			<div class="section-contact-with-us-header">СВЯЗАТЬСЯ С НАМИ</div>
 			<div class="section-contact-with-us-content">
@@ -924,6 +939,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="section-map">
 		<div id="googlemaps" class="map"></div>
 		<div class="block-with-contacts">
@@ -943,10 +959,10 @@
 				<img src="assets/img/icon-mail.png" alt="">
 				<div>CentreRInNova@gmail.com</div>
 			</div>
-
 		</div>
 	</section>
-	<footer style='background-image:url("../../assets/img/background-contact-with-us.png");'>
+
+	<footer style='background-image:url("/assets/img/background-contact-with-us.png");'>
 		<div class="container">
 			<div class="footer-items">
 				<div class="footer-item logo-size">
@@ -968,7 +984,7 @@
 	<div id="callMe" class="popup popup-feedback" style="opacity: 0">
 		<div class="popup-wrapper">
 			<div class="popup-content" role="dialog"
-				style='background-image: url("../../assets/img/background-popup.png")'>
+				style='background-image: url("/assets/img/background-popup.png")'>
 				<div class="popup-content-inner">
 					<button type="submit" class="popup-close" data-popup-close="feedBack"><img
 							src="assets/img/icon-close.png" alt=""></button>
@@ -1000,7 +1016,7 @@
 	<div id="feedBack" class="popup popup-feedback" style="opacity: 0">
 		<div class="popup-wrapper">
 			<div class="popup-content" role="dialog"
-				style='background-image: url("../../assets/img/background-popup.png")'>
+				style='background-image: url("/assets/img/background-popup.png")'>
 				<div class="popup-content-inner">
 					<button type="submit" class="popup-close" data-popup-close="feedBack"><img
 							src="assets/img/icon-close.png" alt=""></button>
