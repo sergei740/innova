@@ -19,7 +19,12 @@
 }
 
 @media (max-width: 1279px) {
+  .section-list-of-consulting-services {
+    display: none;
+  }
+
   .section-list-of-consulting-services-header {
+    width: 100%;
     font-size: 36px;
     text-align: center;
     line-height: normal;

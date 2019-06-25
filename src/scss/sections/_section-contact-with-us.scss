@@ -54,8 +54,7 @@
   margin-top: 20px;
 }
 
-
-///Media 
+///Media
 
 @media (max-width: 1599px) {
   .form-contact-with-us input[type="text"] {
@@ -64,7 +63,6 @@
     display: block;
   }
 }
-
 
 @media (max-width: 1439px) {
   .section-contact-with-us-header {
@@ -85,26 +83,26 @@
     font-size: 42px;
     line-height: normal;
     text-align: center;
-    }
+  }
 
-    .btn-contact-with-us {
-      display: block;
-      margin: auto;
-    }
+  .btn-contact-with-us {
+    display: block;
+    margin: auto;
+  }
 
-    .form-contact-with-us {
-      text-align: center;
-      margin: auto;
-      width: 100%;
-    }
+  .form-contact-with-us {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
 
-    .block-for-checkbox {
-      width: 420px; 
-      margin: 20px auto 0;
-      &:last-child label {
-        text-align: left;
-      }
+  .block-for-checkbox {
+    width: 420px;
+    margin: 20px auto 0;
+    &:last-child label {
+      text-align: left;
     }
+  }
 }
 
 @media (max-width: 767px) {
@@ -112,12 +110,23 @@
     width: 100%;
   }
 
-  .form-contact-with-us input[type="text"], .form-contact-with-us input[type="text"]:nth-child(2) {
+  .form-contact-with-us input[type="text"],
+  .form-contact-with-us input[type="text"]:nth-child(2) {
     width: 80%;
     margin: 0 auto 30px;
   }
 
-  .section-contact-with-us-content{
+  .section-contact-with-us-content {
     padding: 60px 0;
+  }
+
+  .block-for-checkbox {
+    width: 240px;
+  }
+}
+
+@media (max-width: 374px) {
+  .btn-contact-with-us {
+    width: 260px;
   }
 }
