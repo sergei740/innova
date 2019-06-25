@@ -114,3 +114,10 @@
     line-height: normal;
   }
 }
+
+@media (max-width: 1439px) {
+  .subitem-content {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}

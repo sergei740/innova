@@ -119,9 +119,11 @@
   .section-contact-with-us-content {
     padding: 60px 0;
   }
+}
 
+@media (max-width: 499px) {
   .block-for-checkbox {
-    width: 240px;
+    width: 260px;
   }
 }
 

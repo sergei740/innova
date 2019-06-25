@@ -6,15 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Иннова</title>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#878787">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Favicons ending -->
 <link href="/assets/css/common.css" rel="stylesheet"></head>
 
 <body>
 	<header id="myHeader">
-		<div class="navbar-wrapper" style='background: url("../../assets/img/header-bg.png")'>
+		<div class="navbar-wrapper" style='background: url("/assets/img/header-bg.png")'>
 			<div class="container">
 				<div class="navbar">
 					<div class="navbar-content">
-						<div class="logo"><a href="#subheader"><img src="assets/img/logo-innova.png" alt=""></a></div>
+						<div class="logo"><a href="#subheader"><img src="assets/img/logo-innova.png" alt="Иннова"></a>
+						</div>
 						<div class="navbar-list scrollto-js" id="menu">
 							<div class="list-item"><a href="#services">услуги</a></div>
 							<div class="list-item"><a href="#advantages">наши преимущества</a></div>
@@ -35,7 +47,10 @@
 			</div>
 		</div>
 	</header>
-	<section class="section-subheader" id="subheader" style='background-image:url("../../assets/img/background.png")'>
+
+	<section class="progress"></section>
+
+	<section class="section-subheader" id="subheader" style='background-image:url("/assets/img/background.png")'>
 		<div class="container">
 			<div class="main-title">Консультирование в сфере биржевой торговли и управления активами</div>
 			<div class="main-subtitle">Более 7 лет на рынке!</div>
@@ -43,8 +58,7 @@
 			<div class="child-subtitle">почему мы?</div>
 			<div class="block-for-metal-btn scrollto-js" id="btnScrollToConsult">
 				<a href="#consult" class="btn-metal">
-					<span class="btn-scroll-down"
-						style='background-image: url("../../assets/img/icon-btn-bg-metal.png")'>
+					<span class="btn-scroll-down" style='background-image: url("/assets/img/icon-btn-bg-metal.png")'>
 						<span class="btn-sircle">
 							<span class="btn-arrow"></span>
 						</span>
@@ -53,6 +67,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class='section-consult' id="consult">
 		<div class="container">
 			<div class="block-consult">
@@ -66,13 +81,10 @@
 				полный доступ к нашей базе знаний.
 				Заработайте свой первый миллион с нами!
 			</div>
-			<form action="#" class="btn-get-consult-to-center">
-				<button class="btn-main btn-get-consult" data-popup-open="feedBack">Получить консультацию</button>
-			</form>
-
+			<button class="btn-main btn-get-consult" data-popup-open="feedBack">Получить консультацию</button>
 		</div>
-
 	</section>
+
 	<section class="section-list-of-consulting-services" id="services">
 		<div class="container">
 			<div class="section-list-of-consulting-services-header">Перечень Консультационных услуг</div>
@@ -631,12 +643,668 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="section-list-of-consulting-services-small">
+		<div class="container">
+			<div class="section-list-of-consulting-services-header">Перечень Консультационных услуг</div>
+		</div>
+		<div class="section section-slider">
+			<div id="slider" class="slider">
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Начальный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Риски при заключении сделок на финансовых рынках</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Источники возникновения рисков;<br />
+										− Виды рисков;<br />
+										− Экономические последствия;<br />
+										− Ответственность сторон сделок<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Фундаментальный анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Экономические данные и их влияние на валютные курсы;<br />
+										− Наиболее важные события, влияющие на движение валют;<br />
+										− Варианты движения рынка после выхода статистической<br />
+										информации.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Начальный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Графический анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Основные понятия графического анализа;<br />
+										− Построение трендовых линий поддержки (сопротивления);<br />
+										− Фигуры разворота (фигуры продолжения) тренда;<br />
+										− Уровни Фибоначчи (торговля на коррекции).<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Волновая теория Эллиота</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Волны Эллиота, основные положения;<br />
+										− Прогноз на основе волновой теории Эллиота.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Начальный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Свечной анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Основные фигуры свечного анализа;<br />
+										− Применение фигур свечного анализа;<br />
+										− Классические модели свечного анализа.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Индикаторы. Основы</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Трендовые (скользящие средние MA, CCI, Bollinger, Parabolic);<br />
+										− Осцилляторы (Stochastic, RSI, MACD);<br />
+										− Дивергенция, общее понятие, виды дивергенции;<br />
+										− Определение окончания тренда с помощью дивергенции<br />
+										(MACD,RSI,CCI).
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Начальный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Психологические аспекты торговли на рынке FOREX</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Что мешает работе трейдера;<br />
+										− Психология успеха в торговле;<br />
+										− Основные психологические факторы и их соблюдение при
+										торговле.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Правила управления капиталом</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Определение оптимальной величины торгового капитала;<br />
+										− Расчет величины резервов;<br />
+										− Методики распределения прибыли на торговых инструментах;<br />
+										− Расчет прибыли и убытков при формировании торгового<br />
+										портфеля;
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Начальный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Систематизация идей, построение торгового плана</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Постановка целей;
+										− Выбор торгового инструмента;
+										− Выбор временного интервала;
+										− Анализ рынка;
+										− Определение тренда;
+										− Определение точек входа в рынок;
+										− Задание остановки убыточных позиций;
+										− Сопровождение открытых позиций;
+										− Определение соотношения прибыли – убытки на торговых
+										инструментах;
+										− Формирование торгового плана (торговой стратегии);
+										− Анализ сделок, выявление ошибок;
+										− Увеличение прибыльности торгового плана на основе анализа
+										сделок.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Практические занятия</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− Построение собственного торгового плана;<br />
+										− Получение практических навыков работы с использованием
+										торгового плана.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section-slider">
+			<div id="slider" class="slider">
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Углубленный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Торговая система «врыв»</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− суть определения тенденции<br />
+										− поиск точки входа<br />
+										− выход с рынка, принципы мани-менеджмента<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Углубленный графический анализ часть 1</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− использование показателей объемов на уровнях поддержки и
+										сопротивления;<br />
+										− нахождение точек неопределенности на фигурах;<br />
+										− графические модели и их применение.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Углубленный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Углубленный графический анализ часть 2</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− графические модели и их применение.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Экономические циклы</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− виды экономических циклов;<br />
+										− влияние на рынок;<br />
+										− применение в торговле.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Углубленный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Фундаментальный анализ часть 1</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− экономические данные и их влияние на валютные курсы;<br />
+										− наиболее важные события, влияющие на движение валют;<br />
+										− варианты движения рынка после выхода статистических данных.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Фундаментальный анализ часть 2</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− работа отложенным ордерами;<br />
+										− политика процентных ставок.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Углубленный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Основы волновой теории Эллиота</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− импульсные и коррекционным участки;<br />
+										− нахождение на графике;<br />
+										− принцип вложенности волн.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Анализ фондового рынка часть 1</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− режим работы, отличия технических моментов;<br />
+										− использование "разрывов" графика для анализа дальнейшего<br />
+										движения цены.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Углубленный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Анализ фондового рынка часть 2</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− влияние событий рынка Forex на фондовый рынок;<br />
+										− распределение по секторам и факторы, влияющие на каждый
+										сектор.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Практическое применение, закрепление пройденного материала
+								</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− проверка навыка заключения сделок, основанных на пройденном
+										анализе;<br />
+										− работа на фондовом рынке.<br />
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section-slider">
+			<div id="slider" class="slider">
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Профессиональный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Методики расчета стоимости пункта и размера залога для
+									всех типов сделок</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− расчеты для валютных пар;<br />
+										− расчеты для драгоценных металлов;<br />
+										− расчеты для акций.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Разработка диверсифицированного портфеля</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− принцип диверсификации;<br />
+										− расчет доходности и рисков;<br />
+										− краткосрочные и долгосрочные модели инвестирования.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Профессиональный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Скальпинг: индикаторы краткосрочной торговли</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− что такое скальпинг;<br />
+										− группы скальпинга;<br />
+										− преимущества скальпинга.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Скальпинг: расчет манименеджмента</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− риск по сделке;<br />
+										− прибыль по сделке;<br />
+										− дневная норма риска и доходности.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Профессиональный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Скальпинг: Формирование торговой системы с доходностью до
+									5% в день</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− определение тренда;<br />
+										− определение точки входа;<br />
+										− добавление и закрытие позиций.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Основы роботизированной торговли</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− принцип действия торгового робота;<br />
+										− торговля робота и меняющаяся рыночная обстановка.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Профессиональный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Числа Фибоначчи</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− история появления;<br />
+										− фибо-сетка и ее применение в торговле.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Продвинутый волновой анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− определение разворотной точки;<br />
+										− совмещение уровней Фибоначчи и волновой теории.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Профессиональный блок</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Практика. Закрепление пройденного материала часть 1</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− проверка навыка заключения сделок, основанных на пройденном
+										анализе.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Практика. Закрепление пройденного материала часть 2</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− алгоритмическая торговля в терминале.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section-slider">
+			<div id="slider" class="slider">
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Фондовый рынок США</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Принципы функционирования фондового рынка США</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− время работы рынка;<br />
+										− тип и спецификация торговых инструментов;<br />
+										− основные фондовые биржи.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Необходимый инструментарий для работы на фондовом рынке
+									США</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− настройка торгового терминала;<br />
+										− основные интернет-ресурсы для мониторинга состояния рынка.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Фондовый рынок США</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Отбор торговых инструментов</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− первичный отбор акций;<br />
+										− «тонкие», «медленные» и шумные CFD .
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Технический анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− торговля по тенденции;<br />
+										− торговля «разворотов»;<br />
+										− пробой уровня.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Фондовый рынок США</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Скальпинг: Формирование торговой системы с доходностью до
+									5% в день</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Фундаментальный анализ</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− постулаты фундаментального анализа;<br />
+										− сезон корпоративной отчетности;<br />
+										− оценка страны и отрасли компании.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Фондовый рынок США</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Точки входа и выхода из рынка</div>
+								<div class="subitem">
+									<div class="subitem-content">
+										− анализ и поиск точки входа в сделку;<br />
+										− оценка прибыли и рисков по сделке;<br />
+										− выход из позиции.
+									</div>
+									<form action="#" class="subitem-content-form-btn">
+										<button type="button" class="btn-main btn-order">заказать</button>
+									</form>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Продвинутый волновой анализ</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="header-for-items">Фондовый рынок США</div>
+						<div class="container-for-items">
+							<div class="item">
+								<div class="item-content">Практика. Закрепление пройденного материала часть 1</div>
+							</div>
+							<div class="item">
+								<div class="item-content">Практика. Закрепление пройденного материала часть 2</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class='section-our-advantages' id="advantages">
 		<div class="container">
 			<div class="section-our-advantages-header">наши преимущества</div>
 		</div>
 		<div class="block-our-advantages-main"
-			style="background-image:url('../../assets/img/background-our-advantages.png')">
+			style="background-image:url('/assets/img/background-our-advantages.png')">
 			<div class="container">
 				<div class="block-with-cards">
 					<div class="first-line-with-items">
@@ -748,8 +1416,8 @@
 				</div>
 			</div>
 		</div>
-		</div>
 	</section>
+
 	<section class='section-download-book-and-photo-whith-us' id="book">
 		<div class="container">
 			<div class="section-download-book-and-photo-whith-us-header">cкачать книгу</div>
@@ -769,7 +1437,8 @@
 								<label for="checkbox-download-book"></label>
 								<label for="checkbox-download-book">Согласие на обработку персональных
 									данных</br><span>Политика
-										конфиденциальности</span></label>
+										конфиденциальности</span>
+								</label>
 							</div>
 						</div>
 						<div class="form-download-book-button">
@@ -904,8 +1573,9 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="section-contact-with-us" id="contacts"
-		style='background:url("../../assets/img/background-contact-with-us.png") no-repeat; background-size: cover;'>
+		style='background:url("/assets/img/background-contact-with-us.png") no-repeat; background-size: cover;'>
 		<div class="container">
 			<div class="section-contact-with-us-header">СВЯЗАТЬСЯ С НАМИ</div>
 			<div class="section-contact-with-us-content">
@@ -924,6 +1594,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="section-map">
 		<div id="googlemaps" class="map"></div>
 		<div class="block-with-contacts">
@@ -943,10 +1614,10 @@
 				<img src="assets/img/icon-mail.png" alt="">
 				<div>CentreRInNova@gmail.com</div>
 			</div>
-
 		</div>
 	</section>
-	<footer style='background-image:url("../../assets/img/background-contact-with-us.png");'>
+
+	<footer style='background-image:url("/assets/img/background-contact-with-us.png");'>
 		<div class="container">
 			<div class="footer-items">
 				<div class="footer-item logo-size">
@@ -967,8 +1638,7 @@
 
 	<div id="callMe" class="popup popup-feedback" style="opacity: 0">
 		<div class="popup-wrapper">
-			<div class="popup-content" role="dialog"
-				style='background-image: url("../../assets/img/background-popup.png")'>
+			<div class="popup-content" role="dialog" style='background-image: url("/assets/img/background-popup.png")'>
 				<div class="popup-content-inner">
 					<button type="submit" class="popup-close" data-popup-close="feedBack"><img
 							src="assets/img/icon-close.png" alt=""></button>
@@ -999,8 +1669,7 @@
 
 	<div id="feedBack" class="popup popup-feedback" style="opacity: 0">
 		<div class="popup-wrapper">
-			<div class="popup-content" role="dialog"
-				style='background-image: url("../../assets/img/background-popup.png")'>
+			<div class="popup-content" role="dialog" style='background-image: url("/assets/img/background-popup.png")'>
 				<div class="popup-content-inner">
 					<button type="submit" class="popup-close" data-popup-close="feedBack"><img
 							src="assets/img/icon-close.png" alt=""></button>

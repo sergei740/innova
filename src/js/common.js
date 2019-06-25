@@ -265,14 +265,10 @@ var ProjFuncs = {
     window.addEventListener("resize", () => {
       if (window.innerWidth <= 1279) {
         firstElem.removeAttribute("id");
-		secondElem.setAttribute("id", 'services');
-		console.log(firstElem);
-		console.log(secondElem);
+        secondElem.setAttribute("id", "services");
       } else if (window.innerWidth >= 1280) {
         secondElem.removeAttribute("id");
-		firstElem.setAttribute("id", "services");
-		console.log(secondElem);
-		console.log(firstElem);
+        firstElem.setAttribute("id", "services");
       }
     });
   },
@@ -292,8 +288,8 @@ var ProjFuncs = {
     this.phoneMask();
     this.validation();
     this.popups();
-	this.progress();
-	this.addAndDeleteID();
+    this.progress();
+    this.addAndDeleteID();
   }
 };
 
