@@ -55,3 +55,25 @@
   content: "✔";
   color: #36bbce;
 }
+
+#checkbox-popup-callme {
+  display: none;
+}
+#checkbox-popup-callme + label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #5c5c5c;
+  text-align: right;
+  position: relative;
+}
+#checkbox-popup-callme + label:before {
+  font-size: 28px;
+  position: absolute;
+  left: 0;
+  top: -14px;
+}
+#checkbox-popup-callme:checked + label:before {
+  content: "✔";
+  color: #36bbce;
+}

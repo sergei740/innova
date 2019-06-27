@@ -6,8 +6,8 @@ import "slick-carousel";
 import "magnific-popup";
 import "jquery-mask-plugin";
 import "jquery-validation";
-
 import "hamburgers";
+
 // import '../libs/plugin-name.js';
 
 const hamburger = document.querySelector(".hamburger");
@@ -300,6 +300,7 @@ $(document).ready(function() {
 window.onscroll = function() {
   myFunction();
 };
+
 
 function showPopup(id) {
   if (id.substring(0, 1) != "#") {
