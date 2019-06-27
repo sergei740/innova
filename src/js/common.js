@@ -328,4 +328,6 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+  navbar.classList.remove("navbar-list-hamburger");
+  hamburger.classList.remove("is-active");
 }

@@ -30,21 +30,21 @@
   width: 100%;
 }
 
-.form-download-book input[type="text"] {
+.form-download-book input[type="text"],.form-download-book input[type="tel"] {
   width: 370px;
   background: #dadada;
   border-radius: 20px;
   padding: 20px 0 20px 43px;
   border: none;
   outline: none;
-  color: #bdbdbd;
+  color: #173c46;
   font-size: 24px;
   line-height: 36px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-right: 40px;
 }
 
-.form-download-book input[type="text"]:nth-child(3) {
+.form-download-book input[type="tel"]:nth-child(3) {
   margin-right: 0;
   width: 506px;
 }
@@ -69,10 +69,14 @@
   padding-top: 40px;
 }
 
+.section-small {
+  display: none;
+}
+
 ///Media
 
 @media (max-width: 1599px) {
-  .form-download-book input[type="text"] {
+  .form-download-book input[type="text"], .form-download-book input[type="tel"]  {
     width: 507px;
     margin: 0 0 30px 0;
   }
@@ -147,10 +151,27 @@
     text-align: center;
   }
 
-  .form-download-book input[type="text"], .form-download-book input[type="text"]:nth-child(3) {
+  .form-download-book input[type="text"], .form-download-book input[type="tel"]:nth-child(3) {
     width: 80%;
     margin: 0 auto 30px;
     display: block;
   }
-}
 
+  .slider-photo {
+    display: none;
+  }
+
+  .section-small {
+    display: block;
+  }
+
+  .section-small .slide img {
+    margin: auto;
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+
+}
